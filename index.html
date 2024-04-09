@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="generator">
+        <h1>Generátor Hesel :</h1>
+        <div>
+            <label for="length">Jak dlouhé heslo? :</label>
+            <input type="number" id="length" value="8" min="4" max="20">
+        </div>
+        <div>
+            <input type="checkbox" id="uppercase" checked>
+            <label for="uppercase">S Velkýma písmenama</label>
+        </div>
+        <div>
+            <input type="checkbox" id="numbers" checked>
+            <label for="numbers">S číslama</label>
+        </div>
+        <div>
+            <input type="checkbox" id="specialChars" checked>
+            <label for="specialChars">Se specialníma znakama</label>
+        </div>
+        <button id="generate">Generovat heslo</button>
+        <p>Poslední vygenerované heslo:</p>
+        <div id="password"></div>
+    </div>
+   
+ 
+ 
+    <script src="script.js"></script>
+</body>
+</html>
